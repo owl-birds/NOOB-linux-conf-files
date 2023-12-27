@@ -73,6 +73,8 @@ ZSH_THEME="awesomepanda"
 plugins=(
 	git
 	zsh-autosuggestions
+	zsh-autocomplete
+	fast-syntax-highlighting
 	tmux
 )
 
@@ -106,8 +108,9 @@ source $ZSH/oh-my-zsh.sh
 #
 #
 # ADDED BY OWL
-neofetch
+# neofetch
+fastfetch
 
 # EDITING ALIAS IN BASIC LINUX COMMAND
 # clear COMMAND
-alias clear="clear && neofetch"
+# alias clear="clear && fastfetch"
